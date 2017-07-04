@@ -2,84 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>https://p-society.github.io/about/index.html</loc>
+            <loc>http://localhost:4000/about/index.html</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/category/css/</loc>
+            <loc>http://localhost:4000/category/css/</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/category/dev/</loc>
+            <loc>http://localhost:4000/category/dev/</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/feed.xml</loc>
+            <loc>http://localhost:4000/feed.xml</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/category/html/</loc>
+            <loc>http://localhost:4000/category/html/</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/</loc>
+            <loc>http://localhost:4000/</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/category/jekyll/</loc>
+            <loc>http://localhost:4000/category/jekyll/</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/category/js/</loc>
+            <loc>http://localhost:4000/category/js/</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/members/index.html</loc>
+            <loc>http://localhost:4000/members/index.html</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/category/misc/</loc>
+            <loc>http://localhost:4000/category/misc/</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/search.json</loc>
+            <loc>http://localhost:4000/search.json</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/sitemap.xml</loc>
+            <loc>http://localhost:4000/sitemap.xml</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/category/svg/</loc>
+            <loc>http://localhost:4000/category/svg/</loc>
         </url>
     
         <url>
-            <loc>https://p-society.github.io/tags/index.html</loc>
+            <loc>http://localhost:4000/tags/index.html</loc>
         </url>
     
     
         <url>
-            <loc>https://p-society.github.io/how-to-use/</loc>
-        </url>
-  
-        <url>
-            <loc>https://p-society.github.io/welcome-to-jekyll/</loc>
-        </url>
-  
-        <url>
-            <loc>https://p-society.github.io/analisando-seu-codigo-js-com-linter/</loc>
-        </url>
-  
-        <url>
-            <loc>https://p-society.github.io/social-meta-tags/</loc>
-        </url>
-  
-        <url>
-            <loc>https://p-society.github.io/por-que-usar-svg/</loc>
-        </url>
-  
-        <url>
-            <loc>https://p-society.github.io/dica-rapida-1/</loc>
+            <loc>http://localhost:4000/welcome-to-jekyll/</loc>
         </url>
   
 </urlset>

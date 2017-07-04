@@ -3,98 +3,20 @@
   <channel>
     <title>Programming Society</title>
     <description>IIIT Bhubaneswar Programming Society</description>
-    <link>https://p-society.github.io/</link>
-    <atom:link href="https://p-society.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Jul 2017 22:15:54 +0530</pubDate>
-    <lastBuildDate>Tue, 04 Jul 2017 22:15:54 +0530</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 04 Jul 2017 22:19:37 +0530</pubDate>
+    <lastBuildDate>Tue, 04 Jul 2017 22:19:37 +0530</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
-    
-      <item>
-        <title>How to Use</title>
-        <description>&lt;h2 id=&quot;cards-jekyll-template---demo&quot;&gt;Cards Jekyll Template - &lt;a href=&quot;http://willianjusten.com.br/cards-jekyll-template&quot;&gt;Demo&lt;/a&gt;&lt;/h2&gt; &lt;p&gt;This is a simple and minimalist template for Jekyll designed for developers that want to write blog posts but don’t want to care about frontend stuff.&lt;/p&gt; &lt;p&gt;The Theme features:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Gulp&lt;/li&gt; &lt;li&gt;Stylus (Jeet, Rupture, Kouto Swiss)&lt;/li&gt; &lt;li&gt;Live Search&lt;/li&gt; &lt;li&gt;Offcanvas Menu&lt;/li&gt; &lt;li&gt;SVG icons&lt;/li&gt; &lt;li&gt;Very very small and fast!&lt;/li&gt; &lt;li&gt;Shell Script to create posts&lt;/li&gt; &lt;li&gt;Tags page&lt;/li&gt; &lt;li&gt;Series page&lt;/li&gt; &lt;li&gt;About Me page&lt;/li&gt; &lt;li&gt;Feed RSS&lt;/li&gt; &lt;li&gt;Sitemap.xml&lt;/li&gt; &lt;li&gt;Color Customization&lt;/li&gt; &lt;li&gt;Info Customization&lt;/li&gt; &lt;/ul&gt; &lt;h2 id=&quot;basic-setup&quot;&gt;Basic Setup&lt;/h2&gt; &lt;ol&gt; &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Install Jekyll&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Fork the &lt;a href=&quot;https://github.com/willianjusten/will-jekyll-template/fork&quot;&gt;Will Jekyll Template&lt;/a&gt;&lt;/li&gt; &lt;li&gt;Clone the repo you just forked.&lt;/li&gt; &lt;li&gt;Edit &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to personalize your site.&lt;/li&gt;...</description>
-        <pubDate>Mon, 09 May 2016 02:05:48 +0530</pubDate>
-        <link>https://p-society.github.io/how-to-use/</link>
-        <guid isPermaLink="true">https://p-society.github.io/how-to-use/</guid>
-        
-        <category>misc</category>
-        
-        <category>jekyll</category>
-        
-        
-      </item>
     
       <item>
         <title>Welcome to Jekyll</title>
         <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes! To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt; &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most...</description>
         <pubDate>Mon, 09 May 2016 02:04:26 +0530</pubDate>
-        <link>https://p-society.github.io/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">https://p-society.github.io/welcome-to-jekyll/</guid>
+        <link>http://localhost:4000/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">http://localhost:4000/welcome-to-jekyll/</guid>
         
         <category>jekyll</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Analisando seu código JS com um linter</title>
-        <description>&lt;h2 id=&quot;introdução&quot;&gt;Introdução&lt;/h2&gt; &lt;p&gt;Faaaala pessoal, fazia muito tempo que eu não escrevia e confesso que isso já estava me agoniando. Então resolvi voltar a &lt;s&gt;falar besteiras&lt;/s&gt; escrever!!&lt;/p&gt; &lt;p&gt;Como não poderia deixar de ser, estou escrevendo ouvindo música. A playlist de hoje é &lt;a href=&quot;https://open.spotify.com/user/spotifybrazilian/playlist/0nUucSaL2BGl2VZlbY5TwR&quot;&gt;Brains&lt;/a&gt;, uma playlist que está sendo montada lá na &lt;a href=&quot;http://www.ccxp.com.br/&quot;&gt;CCXP&lt;/a&gt;, muita música maneira! Bota para tocar e vai lendo =D&lt;/p&gt; &lt;h2 id=&quot;qualidade-de-código&quot;&gt;Qualidade de Código&lt;/h2&gt; &lt;p&gt;Provavelmente você já passou horas escrevendo seu código lindo e aí, do nada, ele parou de funcionar. Então você ficou mais perdido que o John Travolta no Discurso da Dilma.&lt;/p&gt; &lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/FWXpxEbWcOapq/giphy.gif&quot; alt=&quot;John...</description>
-        <pubDate>Sat, 05 Dec 2015 04:13:23 +0530</pubDate>
-        <link>https://p-society.github.io/analisando-seu-codigo-js-com-linter/</link>
-        <guid isPermaLink="true">https://p-society.github.io/analisando-seu-codigo-js-com-linter/</guid>
-        
-        <category>js</category>
-        
-        <category>linter</category>
-        
-        <category>tutorial</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Social Meta Tags</title>
-        <description>&lt;h2 id=&quot;introdução&quot;&gt;Introdução&lt;/h2&gt; &lt;p&gt;Estou aqui de novo para mais uma &lt;strong&gt;#dicarapida&lt;/strong&gt; sobre um assunto que é bastante importante, mas muita gente esquece ou não faz de forma correta, que são as Meta Tags Sociais.&lt;/p&gt; &lt;p&gt;Hoje em dia, as redes sociais são fundamentais para que a gente consiga alcançar um maior número de pessoas. Antes isso ficava mais a cargo das pesquisas orgânicas, ads e outros modelos de divulgação (email marketing, spots de rádio, tv, etc).&lt;/p&gt; &lt;p&gt;No meu blog, muito do acesso é dado pelas redes sociais, sendo o facebook o maior propagador, acho que é porque sigo os passos do &lt;a...</description>
-        <pubDate>Tue, 10 Feb 2015 01:03:48 +0530</pubDate>
-        <link>https://p-society.github.io/social-meta-tags/</link>
-        <guid isPermaLink="true">https://p-society.github.io/social-meta-tags/</guid>
-        
-        <category>social</category>
-        
-        <category>seo</category>
-        
-        <category>tutorial</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>#1 - Por que usar SVG?</title>
-        <description>&lt;h2 id=&quot;meu-histórico&quot;&gt;Meu histórico&lt;/h2&gt; &lt;p&gt;Muita gente sabe que eu ❤ SVG e que venho tentado evangelizar de todas as formas essa tecnologia em todo lugar que eu passo. Meu primeiro trabalho foi a &lt;a href=&quot;https://github.com/willianjusten/awesome-svg&quot;&gt;Awesome-SVG&lt;/a&gt;, que pode não parecer, mas deu um trabalho do caramba juntar todo conteúdo possível desse assunto, organizar, separar e ainda manter atualizado.&lt;/p&gt; &lt;p&gt;Essa semana eu e meu amigo &lt;a href=&quot;https://github.com/lucasmaiaesilva&quot;&gt;Lucas Maia&lt;/a&gt; lançamos a tradução do &lt;a href=&quot;http://svgpocketguide.com/&quot;&gt;SVG Pocket Guide&lt;/a&gt; e que inclusive está &lt;a href=&quot;https://github.com/jonitrythall/svgpocketguide/blob/master/svgpocketguide-ptbr.md&quot;&gt;open source&lt;/a&gt; (Viu algum erro? Manda um Pull Request! É difícil fazer tudo sem nenhum errinho xD).&lt;/p&gt; &lt;p&gt;Também palestrei no &lt;a href=&quot;http://www.frontinbahia.com.br/&quot;&gt;Front...</description>
-        <pubDate>Thu, 08 Jan 2015 14:09:47 +0530</pubDate>
-        <link>https://p-society.github.io/por-que-usar-svg/</link>
-        <guid isPermaLink="true">https://p-society.github.io/por-que-usar-svg/</guid>
-        
-        <category>svg</category>
-        
-        <category>frontend</category>
-        
-        <category>trend</category>
-        
-        <category>dicarapida</category>
-        
-        
-        <category>O mundo mágico do SVG</category>
-        
-      </item>
-    
-      <item>
-        <title>Dica rápida #1</title>
-        <description>&lt;p&gt;Já que estou participando da campanha do &lt;a href=&quot;http://blog.da2k.com.br/&quot;&gt;Fernando Daciuk&lt;/a&gt; que é o &lt;strong&gt;#1postperday&lt;/strong&gt;, resolvi criar uma outra hashtag, que será a &lt;strong&gt;#dicarapida&lt;/strong&gt;. Como o próprio nome diz, serão dicas rápidas, mas que as vezes a gente não faz ou esquece ou ninguém falou por ser “bobo”.&lt;/p&gt; &lt;p&gt;A minha ideia também será postar coisas em um nível também iniciante, assim ajuda uma galera nova, que está começando agora.&lt;/p&gt; &lt;h2 id=&quot;favicons&quot;&gt;Favicons&lt;/h2&gt; &lt;p&gt;&lt;img src=&quot;/assets/img/dica-rapida-1/favicons.png&quot; alt=&quot;Favicons&quot; /&gt;&lt;/p&gt; &lt;p&gt;Pequenos e bastante simples, mas que já ajudam a identificar um site sem necessidade de mais nenhuma informação. Aposto que você sabe todos os sites que...</description>
-        <pubDate>Thu, 08 Jan 2015 03:01:05 +0530</pubDate>
-        <link>https://p-society.github.io/dica-rapida-1/</link>
-        <guid isPermaLink="true">https://p-society.github.io/dica-rapida-1/</guid>
-        
-        <category>dicarapida</category>
         
         
       </item>
