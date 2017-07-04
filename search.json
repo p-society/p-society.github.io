@@ -3,42 +3,42 @@
     {
       "title"    : "How to Use",
       "tags"     : "misc and jekyll",
-      "url"      : "https://p-society.github.io/how-to-use/",
+      "url"      : "/how-to-use/",
       "date"     : "09 May 2016"
     } ,
   
     {
       "title"    : "Welcome to Jekyll",
       "tags"     : "jekyll",
-      "url"      : "https://p-society.github.io/welcome-to-jekyll/",
+      "url"      : "/welcome-to-jekyll/",
       "date"     : "09 May 2016"
     } ,
   
     {
       "title"    : "Analisando seu código JS com um linter",
       "tags"     : "js, linter, and tutorial",
-      "url"      : "https://p-society.github.io/analisando-seu-codigo-js-com-linter/",
+      "url"      : "/analisando-seu-codigo-js-com-linter/",
       "date"     : "05 Dec 2015"
     } ,
   
     {
       "title"    : "Social Meta Tags",
       "tags"     : "social, seo, and tutorial",
-      "url"      : "https://p-society.github.io/social-meta-tags/",
+      "url"      : "/social-meta-tags/",
       "date"     : "10 Feb 2015"
     } ,
   
     {
       "title"    : "#1 - Por que usar SVG?",
       "tags"     : "svg, frontend, trend, and dicarapida",
-      "url"      : "https://p-society.github.io/por-que-usar-svg/",
+      "url"      : "/por-que-usar-svg/",
       "date"     : "08 Jan 2015"
     } ,
   
     {
       "title"    : "Dica rápida #1",
       "tags"     : "dicarapida",
-      "url"      : "https://p-society.github.io/dica-rapida-1/",
+      "url"      : "/dica-rapida-1/",
       "date"     : "08 Jan 2015"
     } 
   
