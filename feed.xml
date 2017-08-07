@@ -5,18 +5,16 @@
     <description>IIIT Bhubaneswar Programming Society</description>
     <link>https://p-society.github.io/</link>
     <atom:link href="https://p-society.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 05 Jul 2017 12:53:56 +0530</pubDate>
-    <lastBuildDate>Wed, 05 Jul 2017 12:53:56 +0530</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Tue, 08 Aug 2017 00:05:16 +0530</pubDate>
+    <lastBuildDate>Tue, 08 Aug 2017 00:05:16 +0530</lastBuildDate>
+    <generator>Jekyll v3.5.1</generator>
     
       <item>
-        <title>Demo post</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code class=&quot;highlighter-rouge&quot;&gt;-w&lt;/code&gt; switch) to see your changes! To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt; &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt; &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt; &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most...</description>
-        <pubDate>Tue, 02 May 2017 02:04:26 +0530</pubDate>
-        <link>https://p-society.github.io/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">https://p-society.github.io/welcome-to-jekyll/</guid>
-        
-        <category>jekyll</category>
+        <title>2nd Year members list</title>
+        <description>&lt;h1 id=&quot;selected-2nd-years-for-programming-society&quot;&gt;Selected 2nd years for Programming Society&lt;/h1&gt; &lt;p&gt;Selecting a few out of many was a humungous task for us. Still we tried our best to be impartial in our decisions and every selection was democratically done taking into consideration the summary mailed by the fellow students and the participation he/she had shown during 1st year of his/her studies. Even if you haven’t been called aboard the team, you are in no way insignificant to the society. The students in the list will only be given responsibilities. One can always volunteer to work with us and help us in making an...</description>
+        <pubDate>Sat, 05 Aug 2017 18:04:26 +0530</pubDate>
+        <link>https://p-society.github.io/2nd-year-members/</link>
+        <guid isPermaLink="true">https://p-society.github.io/2nd-year-members/</guid>
         
         
       </item>
