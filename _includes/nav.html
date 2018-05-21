@@ -1,0 +1,50 @@
+{% if page.url == '/' %}{% assign homepage = true %}{% endif %}
+  {% unless homepage %}
+    <div class="{% unless homepage %}border-bottom{% endunless %}">
+      <div class="container px-3 py-4">
+        <div class="py-4">
+          <nav class="navbar navbar-expand-lg navbar-light text-change">
+            <a class="navbar-brand brand px-2" href="#">P-SOCIETY</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link px-2 text-change" href="/">HOME</a>
+                <a class="nav-item nav-link px-2 text-change" href="#">PROJECTS</a>
+                <a class="nav-item nav-link px-2 text-change" href="#">COMMUNITY</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  {% endunless %}
+
+  {% if homepage == true  %}
+   <div id="pos-background">
+
+   </div>
+   <div class="container px-3 py-4" style="top:0;position:absolute;left:auto">
+     <div class="py-4">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light text-change">
+       <a class="navbar-brand brand px-2" href="#">P-SOCIETY</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+         <div class="navbar-nav ml-auto">
+           <a class="nav-item nav-link px-2 text-change" href="#">HOME</a>
+           <a class="nav-item nav-link px-2 text-change" href="#">PROJECTS</a>
+           <a class="nav-item nav-link px-2 text-change" href="#">COMMUNITY</a>
+         </div>
+       </div>
+     </nav>
+   </div>
+   </div>
+   <div class="container text-center" style="top:-400px;position:relative;">
+     <div class="row description px-4">
+      <div class="col-md-12 col-xs-12"><i>:wave: "{{site.description}}</i></div>
+     </div>
+   </div>
+  {% endif %}

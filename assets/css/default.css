@@ -1,0 +1,156 @@
+/*
+  For navbar
+*/
+
+/*
+  navbar brand
+*/
+
+.brand {
+  border-radius: 5px;
+  width: 100px;
+  min-height: 30px;
+  line-height: 30px;
+  font-size: 23px;
+  color: white;
+  background-color: rgb(121, 213, 199);
+}
+
+.brand:hover {
+  background-color: rgb(237, 17, 92);
+}
+
+/*
+  anchor hover change
+*/
+
+.navbar-nav a:hover {
+  background-color: rgb(121, 213, 199);
+}
+
+/*
+  navbar contents
+*/
+
+.text-change {
+  text-shadow: 1.2px 1.2px white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 7px;
+  margin-right: 20px;
+}
+
+/*
+background Image on top
+*/
+
+#pos-background {
+  z-index: 999;
+  min-height: 500px;
+  background-attachment: fixed;
+}
+
+.description {
+  color: inherit;
+  font-weight: bold;
+  font-size: 30px;
+  top:150px;
+  text-align: center;
+  position: relative;
+  background-color: olive;
+  filter:sepia(60%) opacity(55%);
+  border-radius: 0px 50px;
+}
+
+/*
+ Footer CSS
+*/
+
+.footer-under {
+    background-color: rgb(49, 40, 51);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    min-height: 500px;
+    color: rgb(238, 238, 238);
+    position: relative;
+    font-weight: 100;
+    font-family: Helvetica, serif;
+}
+
+.container-width {
+    width: 90%;
+    max-width: 1150px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.foot-list-item {
+    font-size: 0.8em;
+    padding-top: 0.5em;
+    padding-right: 0px;
+    padding-bottom: 0.5em;
+    padding-left: 0px;
+}
+
+.foot-list-item a:hover {
+  color: rgb(121, 213, 199);
+}
+
+.foot-list-item-anchor {
+  color: rgba(238, 238, 238, 0.8);
+}
+
+.foot-list {
+    float: left;
+    width: 200px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.copyright {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: rgba(238, 238, 238, 0.5);
+    bottom: 0px;
+    padding-top: 1em;
+    padding-right: 0px;
+    padding-bottom: 1em;
+    padding-left: 0px;
+    position: absolute;
+    width: 100%;
+    font-size: 0.75em;
+}
+
+.foot-form-title {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-top: 0.5em;
+    padding-right: 0px;
+    padding-bottom: 0.5em;
+    padding-left: 0px;
+    text-align: right;
+    font-size: 2em;
+}
+
+.foot-form-desc {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 20px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.error {
+  background-color: #F0F3F4;
+}
