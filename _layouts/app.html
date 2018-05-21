@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div class="container-fluid explore">
+  <div class="row">
+    <div class="col-xs-12 col-md-3"></div>
+    <div class="col-xs-12 col-md-6">
+      <h1>Preview</h1>
+      {% for preview in page.previews%}
+        <br>
+        <img src="{{preview}}" alt="preview" class="img-fluid">
+        <br>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="container body-apps-info">
+  <div class="row">
+    <div class="col-xs-12 col-md-12">
+      <h1>Information</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container body-apps">
+  <div class="row">
+    <div class="col-md-12 colxs-12">
+        {{ content }}
+    </div>
+  </div>
+</div>

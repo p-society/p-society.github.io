@@ -1,8 +1,4 @@
 /*
-  For navbar
-*/
-
-/*
   navbar brand
 */
 
@@ -48,7 +44,7 @@
 }
 
 /*
-background Image on top
+background on top
 */
 
 #pos-background {
@@ -160,4 +156,34 @@ background Image on top
 
 .error {
   background-color: #F0F3F4;
+}
+
+/*
+  Index page projects part
+*/
+
+.explore {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(34, 34, 34);
+    font-family: Helvetica, serif;
+    color: white;
+}
+
+.body-apps {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #F0F3F4;
+  color: black;
+}
+
+.body-apps-info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ABEBC6;
+  color: black;
+}
+
+.page-section {
+  color: white
 }

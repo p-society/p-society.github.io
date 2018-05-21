@@ -23,12 +23,24 @@ exclude:
   - script
   - vendor
 
-markdown: GFM
+markdown: kramdown
 
 plugins:
   - jekyll-redirect-from
   - jekyll-octicons
   - jekyll-readme-index
   - jemoji
+
+collections:
+  apps:
+    output: true
+    permalink: /apps/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: apps
+    values:
+      layout: app
 
 branch: master

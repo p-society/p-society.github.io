@@ -1,3 +1,23 @@
 ---
 layout: default
 ---
+<div class="explore">
+  <div class="container-lg px-3 page-section">
+    <h2 class="text-center">Explore</h2>
+    <p class="lead text-center col-md-7 col-sm-10 mx-auto">
+      Check out these apps made by P-society that can help developers in great way. They're all open source and free to use on any project.
+    </p>
+    <div class="d-md-flex flex-wrap gutter flex-auto">
+      {% assign apps = site.apps %}
+      {% for app in apps limit:1 %}
+        {% include app.html app=app %}
+      {% endfor %}
+    </div>
+    <br>
+    <div class="text-center py-3">
+      <p class="lead mx-auto col-md-8">
+        :v: Currently many are work in progress.
+      </p>
+    </div>
+  </div>
+</div>
