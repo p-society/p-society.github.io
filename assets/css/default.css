@@ -187,3 +187,17 @@ background on top
 .page-section {
   color: white
 }
+
+.btn-success {
+  border-radius: 0px !important;
+  background-color: #8064A2 !important;
+  color: white !important;
+  border-color: #8064A2 !important;
+}
+
+.btn-success:hover {
+  border-radius: 0px !important;
+  background-color: white !important;
+  color: #8064A2 !important;
+  border-color: white !important;
+}
