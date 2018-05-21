@@ -16,8 +16,15 @@
   background-color: rgb(121, 213, 199);
 }
 
+@keyframes moveright {
+    0% {width: 100px}
+    100% {width: 200px}
+}
+
 .brand:hover {
   background-color: rgb(237, 17, 92);
+  animation: moveright 0.3s linear 1;
+  animation-fill-mode: forwards;
 }
 
 /*
