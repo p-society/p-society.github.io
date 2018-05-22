@@ -1,7 +1,10 @@
  ---
  name: Ayush Shridhar
+
  description: I'm a Machine Learning and Data Science euthusiast. Also a part time Open Source developer.
+ 
  picUrl: https://avatars2.githubusercontent.com/u/24913958?s=400&u=c4b93a17d03b9234c39d6a702c412e3dc1a49eac&v=4
+ 
  skills: |
   - **Languages:** Python, Julia, C/C++, Go, JavaScript
   - **Frameworks:** TensorFlow, Keras, PyTorch, Flux.jl, Pandas, NumPy. 
@@ -17,7 +20,9 @@ speciality: |
   - Open Source
  
 github_url: https://github.com/ayush1999
+
 linkedIn_url: https://www.linkedin.com/in/ayush-shridhar-23480b130/
+
 twitter_url: https://twitter.com/ayuSHridhar
  
 work_experience: |
@@ -29,7 +34,7 @@ work_experience: |
                  |   
  - Contributor @[SymPy](https://github.com/sympy): Started my journey in Open Source by contributing to SymPy. Mainly focused on the Geometry module for Sympy. [Jun 2017 - Present]
 
-project: |
+projects: |
  - [Image Caption Generator](): A tool to generate captions from Images. Tech Stack: Python, Deep Learning, Vision, NLP. Soon to be open sourced.
          |
  - [Kaggle Datasets](): I'm pretty active on Kaggle. I love playing around with different datasets. 
@@ -43,5 +48,4 @@ volunteer_experience: |
                      
 research_interest: |
  - I'm interested in Deep learning for Natural Language Processing in particular. 
-
- ---
+---
