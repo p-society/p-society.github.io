@@ -31,4 +31,8 @@ If you want to contribute bu writing code follow the steps.
 Please see [CONTRIBUTORS.md](https://github.com/p-society/p-society.github.io/blob/master/CONTRIBUTORS.md)
 
 
+## To add app made by p-society
+Please see
+[APPADDITION.md](https://github.com/p-society/p-society.github.io/blob/master/APPADDITION.md)
+
 :fire: Enjoy...

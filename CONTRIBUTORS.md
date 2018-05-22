@@ -2,7 +2,7 @@
 
 It should be in **yml** format.
 
-Add this template in `_contributors-app` with file name as your **github username** and open a PR.
+Add this template in `_contributors-app` folder with file name as your **github username** and open a PR.
 
 Example: - `knrt10.md`
 
