@@ -21,8 +21,8 @@ skills:
   - Nodejs
 
 githubUsername: knrt10 // your github username
-speciality:
-  - I don't know. // Can add languages you know here or anything.
+speciality: |
+  - I don't know. // Can add languages you know here or anything. Use markdown
 github_url: https://github.com/knrt10
 linkedIn_url: https://www.linkedin.com/in/kautilya-tripathi-35853713b/
 twitter_url: https://twitter.com/knrt19

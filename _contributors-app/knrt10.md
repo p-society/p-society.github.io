@@ -9,7 +9,7 @@ skills: |
   - **Tools:** git, Github, TravisCI
 
 githubUsername: knrt10
-speciality:
+speciality: |
   - Open Source Software Development
   - Developing applications
   - Developing packages
@@ -18,7 +18,7 @@ github_url: https://github.com/knrt10
 linkedIn_url: https://www.linkedin.com/in/kautilya-tripathi-35853713b/
 twitter_url: https://twitter.com/knrt19
 
-work_experience:
+work_experience: |
   - Maintaining @[P-society](https://github.com/p-society/): I develop applications for programming society of IIIT-BBSR.
 
 volunter_experience: |
