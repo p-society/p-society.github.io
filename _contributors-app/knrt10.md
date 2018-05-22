@@ -2,7 +2,7 @@
 name: Kautilya Tripathi
 description: I am cool too.
 picUrl: https://avatars3.githubusercontent.com/u/24803604?s=400&u=85195bfa8caeb798bedd19d060c91160f0c7c840&v=4
-languages:
+skills:
   - Javascript
   - Nodejs
 
@@ -13,6 +13,7 @@ speciality:
 github_url: https://github.com/knrt10
 linkedIn_url: https://www.linkedin.com/in/kautilya-tripathi-35853713b/
 twitter_url: https://twitter.com/knrt19
+
 project:
   - |
       # typeracer-cli
@@ -155,10 +156,6 @@ project:
       # cloudinary-cli-tool
 
       Upload images to **cloudinary.com** using your command line.
-
-      # Preview
-
-      <img src = "https://user-images.githubusercontent.com/24803604/39407712-f0c2cbcc-4be7-11e8-93ee-9c417d62bf5a.gif"/>
 
       # Installation
 

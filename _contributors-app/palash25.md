@@ -2,7 +2,7 @@
 name: Palash Nigam
 description: I am ultra cool.
 picUrl: https://avatars1.githubusercontent.com/u/21367710?s=400&v=4
-languages:
+skills:
   - Python
   - blockchain
 

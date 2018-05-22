@@ -2,7 +2,7 @@
 name: Ayush Shridhar
 description: I am cool.
 picUrl: https://avatars2.githubusercontent.com/u/24913958?s=400&v=4
-languages:
+skills:
   - python
   - HTML
 

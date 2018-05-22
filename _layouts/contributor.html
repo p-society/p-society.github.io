@@ -8,17 +8,35 @@ layout: default
         <img src="{{page.picUrl}}" alt="pic" class="img-fluid img-thumbnail rounded-circle"><br><br>
         <h3>{{page.name}}</h3>
         <a href="{{page.github_url}}" class="contri-github-button btn btn-lg">{% octicon mark-github %}</a>
+        <a href="{{page.linkedIn_url}}" class="contri-linkedIn-button btn btn-lg">in</a>
+        <a href="{{page.twitter_url}}" class="contri-twitter-button btn btn-lg">T</a>
       </div>
     </div>
     <div class="col-xs-12 col-md-8">
       <div class="well text-center">
         <h1 class="jumbotron">About me</h1>
-          <ul class="list-group">
-            <li class="list-group-item active">Languages I know</li>
-            {% for lang in page.languages%}
-              <li class="list-group-item">{{lang}}</li>
-            {% endfor %}
-          </ul>
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <ul class="list-group">
+                <li class="list-group-item active">Skills</li>
+                {% for lang in page.skills%}
+                  <li class="list-group-item">{{lang}}</li>
+                {% endfor %}
+              </ul>
+            </div>
+
+            <div class="col-xs-12 col-md-8">
+              {% if page.volunter_experience%}
+              <ul class="list-group">
+                <li class="list-group-item active">Volunter Experience</li>
+                {% for experience in page.volunter_experience%}
+                  <li class="list-group-item">{{experience | markdownify}}</li>
+                {% endfor %}
+              </ul>
+              {%endif%}
+            </div>
+
+          </div>
       </div>
     </div>
   </div>
@@ -26,7 +44,7 @@ layout: default
   {%if page.project %}
     <div class="row img-fluid">
       <div class="col-xs-12 col-md-12">
-        <h1>Some of my Projects</h1>
+        <h1>Personal Projects</h1>
         <hr>
         {% for projects in page.project %}
         <div class="jumbotron">

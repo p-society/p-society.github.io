@@ -12,19 +12,26 @@ Example: - `knrt10.md`
 name: Your name
 description: I am cool. // Can be anything
 picUrl: your URL for github profile pic. // Only github.
-languages:
+skills:
   - Javascript // Can add as much you want
   - Nodejs
 
 githubUsername: knrt10 // your github username
 speciality:
   - I don't know. // Can add languages you know here or anything.
-
 github_url: https://github.com/knrt10
 linkedIn_url: https://www.linkedin.com/in/kautilya-tripathi-35853713b/
 twitter_url: https://twitter.com/knrt19
-project: // you can add as much you want but always follow markdown here
+work_experience: anything and you can add as much you want but always follow markdown here
   - | // write markdown below it with 2 spaces !important(do not add any imageUrl here)
+      ## **I** am meesi
+volunter_experience: // same as above
+  - |
+      ## **I** worked at this
+  - |
+      ## **I** worked at that            
+project: // same as above
+  - |
       ## **I** am meesi
   - |
       ## **I** am shit
