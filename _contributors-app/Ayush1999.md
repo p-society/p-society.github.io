@@ -12,9 +12,6 @@ speciality:
 
 github_url: https://github.com/ayush1999
 linkedIn_url: https://www.linkedin.com/in/ayush-shridhar-23480b130/
-twitter_url: https://twitter.com/ayuSHridhar
-project:
-  - |
-      I will add later          
+twitter_url: https://twitter.com/ayuSHridhar          
 
 ---

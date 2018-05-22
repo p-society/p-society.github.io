@@ -15,9 +15,7 @@ linkedIn_url: https://www.linkedin.com/in/kautilya-tripathi-35853713b/
 twitter_url: https://twitter.com/knrt19
 project:
   - |
-      <p align="center">
-        <img src="https://raw.githubusercontent.com/p-society/artwork/master/gifs/typeracer.gif" />
-      </p>
+      # typeracer-cli
 
       > Practice touch typing and compete with your friends all from the comfort of your shell and become a typing ninja :boom:.
 
@@ -78,19 +76,9 @@ project:
 
       **Practice mode**
 
-      - `typerace p` to start practice mode.
-
-      **Preview of practice mode**
-
-      ![practice](https://user-images.githubusercontent.com/24803604/39970250-e3d22eca-5705-11e8-9c89-472ff4d982ea.gif)
-
+      - `typerace p` to start practice mode
 
       **Online mode**
-
-      **Prevew of online mode**
-
-      ![online](https://user-images.githubusercontent.com/24803604/39970260-f63d6bc4-5705-11e8-8d94-b2f984f8c998.gif)
-
 
       - `typerace o -f` to start online mode which will prompt a question
 
@@ -163,9 +151,8 @@ project:
       - *Documentation by:*  :pencil: <a href="https://github.com/palash25">Palash Nigam</a> & <a href="https://github.com/IamRaviTejaG">Ravi Teja Gannavarapu</a>
 
   - |
-      <p align="center">
-      <img src="https://user-images.githubusercontent.com/24803604/39341456-f14ba3d2-49f0-11e8-846e-59b216100574.png" />
-      </p>
+
+      # cloudinary-cli-tool
 
       Upload images to **cloudinary.com** using your command line.
 

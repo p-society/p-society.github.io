@@ -24,7 +24,7 @@ github_url: https://github.com/knrt10
 linkedIn_url: https://www.linkedin.com/in/kautilya-tripathi-35853713b/
 twitter_url: https://twitter.com/knrt19
 project: // you can add as much you want but always follow markdown here
-  - | // write markdown below it with 2 spaces
+  - | // write markdown below it with 2 spaces !important(do not add any imageUrl here)
       ## **I** am meesi
   - |
       ## **I** am shit
