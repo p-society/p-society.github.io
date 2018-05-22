@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="contributor">
+  <div class="container-lg"></div>
+  <h2 class="text-center">All Members</h2>
+  <p class="lead text-center col-md-7 col-sm-10 mx-auto">
+    These are all members of our society who work hard to make world a better place.
+  </p><br>
+  <div class="d-md-flex flex-wrap gutter flex-auto">
+    {% assign contributors = site.contributors-app %}
+    {% for app in contributors %}
+      {% include contributor.html app=app %}
+    {% endfor %}
+  </div>
+</div>
