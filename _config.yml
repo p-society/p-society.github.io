@@ -37,7 +37,7 @@ collections:
     permalink: /apps/:name/
   contributors-app:
     output: true
-    permalink: /contributors-app/:name/  
+    permalink: /contributors-app/:name/
 
 defaults:
   - scope:

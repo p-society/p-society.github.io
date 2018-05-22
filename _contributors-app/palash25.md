@@ -6,6 +6,7 @@ languages:
   - Python
   - blockchain
 
+githubUsername: palash25
 speciality:
   - I like patel.
 

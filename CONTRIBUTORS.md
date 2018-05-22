@@ -16,6 +16,7 @@ languages:
   - Javascript // Can add as much you want
   - Nodejs
 
+githubUsername: knrt10 // your github username
 speciality:
   - I don't know. // Can add languages you know here or anything.
 

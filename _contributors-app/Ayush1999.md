@@ -6,6 +6,7 @@ languages:
   - python
   - HTML
 
+githubUsername: ayush1999
 speciality:
   - I am a doctor
 
