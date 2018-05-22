@@ -20,7 +20,7 @@ layout: default
               <ul class="list-group">
                 <li class="list-group-item active">Skills</li>
                 {% for lang in page.skills%}
-                  <li class="list-group-item">{{lang}}</li>
+                  <li class="list-group-item">{{lang | markdownify }}</li>
                 {% endfor %}
               </ul>
             </div>

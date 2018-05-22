@@ -6,6 +6,10 @@ Add this template in `_contributors-app` folder with file name as your **github 
 
 Example: - `knrt10.md`
 
+### important note
+
+Whenever you are adding any markdown after **anything:** it should be like this **anything: |**
+
 ```yml
 
 ---
