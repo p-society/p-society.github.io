@@ -26,8 +26,9 @@ If you want to contribute bu writing code follow the steps.
 
 - Before working on an issue comment on the issue **"I would like to work on this"**
 
-## Steps to add members site
+## Steps for members to add yourself and your projects to site
 
 Please see [CONTRIBUTORS.md](https://github.com/p-society/p-society.github.io/blob/master/CONTRIBUTORS.md)
+
 
 :fire: Enjoy...

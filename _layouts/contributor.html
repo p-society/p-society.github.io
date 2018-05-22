@@ -7,7 +7,7 @@ layout: default
       <div class="jumbotron text-center">
         <img src="{{page.picUrl}}" alt="pic" class="img-fluid img-thumbnail rounded-circle"><br><br>
         <h3>{{page.name}}</h3>
-        <a href="{{page.github_url}}" class="btn btn-lg btn-success">Projects</a>
+        <a href="{{page.github_url}}" class="contri-github-button btn btn-lg">{% octicon mark-github %}</a>
       </div>
     </div>
     <div class="col-xs-12 col-md-8">
@@ -22,6 +22,22 @@ layout: default
       </div>
     </div>
   </div>
+
+  {%if page.project %}
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>Some of my Projects</h1>
+        <hr>
+        {% for projects in page.project %}
+        <div class="jumbotron">
+          <p>{{projects | markdownify}}</p>
+        </div>
+        <hr>
+        {%endfor%}
+      </div>
+    </div>
+  {%endif%}
+
 </div>
 <div class="container">
   <div class="row">
