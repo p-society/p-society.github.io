@@ -1,6 +1,6 @@
  ---
  name: Ayush Shridhar
- description: I' a Machine Learning and Data Science euthusiast. Also a part time Open Source developer.
+ description: I'm a Machine Learning and Data Science euthusiast. Also a part time Open Source developer.
  picUrl: https://avatars2.githubusercontent.com/u/24913958?s=400&u=c4b93a17d03b9234c39d6a702c412e3dc1a49eac&v=4
  skills: |
   - **Languages:** Python, Julia, C/C++, Go, JavaScript
