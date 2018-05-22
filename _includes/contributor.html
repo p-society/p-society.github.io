@@ -1,11 +1,26 @@
-<div class="col-xs-12 col-md-2 text-center">
-  <div class="card bg-info mb-2">
-    <div class="card-header">
-      <img src="{{app.picUrl}}" alt="profilepic" class="img-fluid">
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">{{app.name}}</h5>
-      <p class="card-text">{{app.description}}</p>
+<div class="col-xs-12 col-md-2">
+  <div class="card">
+    <img class="card-img-bottom img-fluid img-thumbnail" src="{{app.picUrl}}" alt="Card image">
+    <div class="card-body text-center">
+      <h4 class="card-title">{{app.name}}</h4>
+      <p class="card-text">{{app.description}}.</p>
+      <div class="row">
+        <div class="col-xs-3 col-md-3">
+          <a href="{{app.github_url}}" class="contri-github-button btn btn-lg">{% octicon mark-github %}</a>
+        </div>
+        <div class="col-xs-3 col-md-3">
+          <a href="{{app.linkedIn_url}}" class="contri-linkedIn-button btn btn-lg">in</a>
+        </div>
+        <div class="col-xs-3 col-md-3">
+          <a href="{{app.twitter_url}}" class="contri-twitter-button btn btn-lg">T</a>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col">
+          <a href="{{app.url}}" class="btn btn-lg btn-info">More Information</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
