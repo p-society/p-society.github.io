@@ -201,3 +201,15 @@ background on top
   color: #8064A2 !important;
   border-color: white !important;
 }
+
+/*
+Contributor part
+*/
+
+.contributor {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F7F9F9;
+    font-family: Helvetica, serif;
+    color: black;
+}

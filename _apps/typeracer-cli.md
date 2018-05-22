@@ -10,8 +10,8 @@ authors:
 - knrt10
 stars: 63
 repository: p-society/typeracer-cli
-
 ---
+
 > Practice touch typing and compete with your friends all from the comfort of your shell and become a typing ninja :boom:.
 
 *But this has already been done. Why should I use this client?*

@@ -35,6 +35,9 @@ collections:
   apps:
     output: true
     permalink: /apps/:name/
+  contributors-app:
+    output: true
+    permalink: /contributors-app/:name/  
 
 defaults:
   - scope:
@@ -42,5 +45,10 @@ defaults:
       type: apps
     values:
       layout: app
+  - scope:
+      path: ""
+      type: contributors-app
+    values:
+      layout: contributor
 
 branch: master
