@@ -1,3 +1,31 @@
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutFromLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.navout {
+  animation: 0.7s ease-out 0s 1 slideOutFromLeft;
+  animation-fill-mode: forwards;
+}
+
+.navIn {
+  animation: 0.7s ease-out 0s 1 slideInFromLeft;
+  animation-fill-mode: forwards;
+}
+
 .navbar:hover {
   background-color: #14171a;
   width: 100%;

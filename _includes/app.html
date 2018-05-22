@@ -1,5 +1,5 @@
 <div class="col-xs-12 col-md-3"></div>
-<div class="col-xs-12 col-md-6 text-center">
+<div class="col-xs-12 col-md-6 text-center" id="appTop">
   <div class="card bg-dark text-white">
     <img src="{{app.logo}}" alt="logo"/>
     <div class="card-body">
@@ -7,5 +7,39 @@
       <p class="card-text">{{app.description}}.</p>
       <a href="{{app.url}}" class="btn btn-success">More information</a>
     </div>
- </div>
+  </div>
 </div>
+</div>
+
+<script type="text/javascript">
+var app = document.getElementById('appTop')
+var nav = document.getElementById('navbar')
+var memberNames = document.getElementById('memberNames')
+var last_known_scroll_position = 0;
+var ticking = false;
+function doSomething(scroll_pos) {
+  if(scroll_pos<200){
+    nav.classList.add("navIn")
+    nav.classList.add("fixed-top")
+  } if(scroll_pos>200){
+    nav.classList.remove("navIn")
+    nav.classList.add("navout")
+  } if(scroll_pos>300 && scroll_pos < 1300){
+    app.classList.add("navIn")
+  } if(scroll_pos>1300){
+    app.classList.remove("navIn")
+    app.classList.add("navout")
+  }
+}
+
+window.addEventListener('scroll', function(e) {
+  last_known_scroll_position = window.scrollY;
+  if (!ticking) {
+    window.requestAnimationFrame(function() {
+      doSomething(last_known_scroll_position);
+      ticking = false;
+    })
+    ticking = true;
+  }
+})
+</script>
