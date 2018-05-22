@@ -9,7 +9,7 @@ layout: default
       <h1>Preview</h1>
       {% for preview in page.previews%}
         <br>
-        <img src="{{preview}}" alt="preview" class="img-fluid">
+        <a href="{{preview}}"><img src="{{preview}}" alt="preview" class="img-fluid"></a>
         <br>
       {% endfor %}
     </div>
