@@ -41,7 +41,7 @@ project: |
  - [CoWaPS](https://github.com/palash25/CoWaPS): A codewars profile scraper CLI tool
    written using Requests and BeautifulSoup.
 
-volunter_experience: |
+volunteer_experience: |
  - Most of my time is spent hacking on open source. I have contributed to coala, duckduckgo, Kinto, OpenGenus,Mozilla and the Ethereum foundation.
                      |
  - I also like to write articles and have written for opensource.com and geeksforgeeks.org in the past. I also maintain a list of links to all my articles just in case you are interested.

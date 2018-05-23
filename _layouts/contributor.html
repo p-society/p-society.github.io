@@ -26,10 +26,10 @@ layout: default
             </div>
 
             <div class="col-xs-12 col-md-8">
-              {% if page.volunter_experience%}
+              {% if page.volunteer_experience%}
               <ul class="list-group">
-                <li class="list-group-item active text-center">Volunter Experience</li>
-                {% for experience in page.volunter_experience%}
+                <li class="list-group-item active text-center">Volunteer Experience</li>
+                {% for experience in page.volunteer_experience%}
                   <li class="list-group-item">{{experience | markdownify}}</li>
                 {% endfor %}
               </ul>
