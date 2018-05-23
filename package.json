@@ -1,0 +1,32 @@
+{
+  "name": "p-society.github.io",
+  "version": "1.0.0",
+  "description": "This is gonna be official website for P-society",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest && standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p-society/p-society.github.io.git"
+  },
+  "keywords": [
+    "p-society website"
+  ],
+  "author": "Kautilya Tripathi<tripathi.kautilya@gmail.com>",
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "js-yaml": "^3.11.0",
+    "standard": "^11.0.1"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/p-society/p-society.github.io/issues"
+  },
+  "homepage": "https://github.com/p-society/p-society.github.io#readme",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}

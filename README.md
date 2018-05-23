@@ -30,6 +30,17 @@ If you want to contribute bu writing code follow the steps.
 
 Please see [CONTRIBUTORS.md](https://github.com/p-society/p-society.github.io/blob/master/CONTRIBUTORS.md)
 
+**Important**
+
+### *before adding follow these steps*
+
+- `npm install`
+
+- `npm run test`
+
+- If all test pass then open a PR.
+
+- If there is some mistake in your `yml` file, you will be notified in tests.
 
 ## To add app made by p-society
 Please see

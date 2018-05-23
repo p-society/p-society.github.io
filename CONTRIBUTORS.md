@@ -1,3 +1,19 @@
+# For reference of template
+
+Check [Palash.md](https://raw.githubusercontent.com/p-society/p-society.github.io/master/_contributors-app/palash25.md)
+
+**Important**
+
+### *before adding follow these steps*
+
+- `npm install`
+
+- `npm run test`
+
+- If all test pass then open a PR.
+
+- If there is some mistake in your `yml` file, you will be notified in tests.
+
 ## Follow this template
 
 It should be in **yml** format.
@@ -14,7 +30,7 @@ Whenever you are adding any markdown after **anything:** it should be like this 
 
 ---
 name: Your name
-description: I am cool. // Can be anything
+description: I am cool. // Can be anything but less than 90 words !important.
 picUrl: your URL for github profile pic. // Only github.
 skills:
   - Javascript // Can add as much you want
@@ -41,6 +57,6 @@ project: // same as above
       ## **I** am shit
 ---
 
-// Add anything here in md format.
+// Add anything extra you want to add here in markdownd format.
 
 ```
