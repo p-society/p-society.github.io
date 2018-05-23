@@ -1,3 +1,7 @@
+# For reference of template
+
+Check [Palash.md](https://raw.githubusercontent.com/p-society/p-society.github.io/master/_contributors-app/palash25.md)
+
 ## Follow this template
 
 It should be in **yml** format.
@@ -14,7 +18,7 @@ Whenever you are adding any markdown after **anything:** it should be like this 
 
 ---
 name: Your name
-description: I am cool. // Can be anything
+description: I am cool. // Can be anything but less than 90 words !important.
 picUrl: your URL for github profile pic. // Only github.
 skills:
   - Javascript // Can add as much you want
