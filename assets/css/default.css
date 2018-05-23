@@ -37,16 +37,14 @@
 
 .brand {
   border-radius: 5px;
-  width: 100px;
-  min-height: 30px;
-  line-height: 30px;
+  width: 90px;
   font-size: 23px;
   color: white;
   background-color: rgb(121, 213, 199);
 }
 
 @keyframes moveright {
-    0% {width: 100px}
+    0% {width: 90px}
     100% {width: 200px}
 }
 
@@ -251,36 +249,16 @@ Contributor part
  Contributors card
 */
 
-.contri-github-button {
-  background-color: #333;
-  border-radius: 100% !important;
+.contri-github {
+  background-color: #333 !important;
 }
 
-.contri-github-button:hover {
-  background-color: white;
-  border-radius: 100% !important;
+.contri-linkedIn {
+  background-color: #0077b5 !important;
+  color: white !important;
 }
 
-.contri-linkedIn-button {
-  background-color: #0077b5;
-  color:white;
-  border-radius: 100% !important;
-}
-
-.contri-linkedIn-button:hover {
-  background-color: white;
-  color:#0077b5;
-  border-radius: 100% !important;
-}
-
-.contri-twitter-button {
-  background-color: #1da1f2;
-  color:white;
-  border-radius: 100% !important;
-}
-
-.contri-twitter-button:hover {
-  background-color: white;
-  color:#1da1f2;
-  border-radius: 100% !important;
+.contri-twitter {
+  background-color: #1da1f2 !important;
+  color: white !important;
 }
