@@ -2,6 +2,18 @@
 
 Check [Palash.md](https://raw.githubusercontent.com/p-society/p-society.github.io/master/_contributors-app/palash25.md)
 
+**Important**
+
+### *before adding follow these steps*
+
+- `npm install`
+
+- `npm run test`
+
+- If all test pass then open a PR.
+
+- If there is some mistake in your `yml` file, you will be notified in tests.
+
 ## Follow this template
 
 It should be in **yml** format.
@@ -45,6 +57,6 @@ project: // same as above
       ## **I** am shit
 ---
 
-// Add anything here in md format.
+// Add anything extra you want to add here in markdownd format.
 
 ```

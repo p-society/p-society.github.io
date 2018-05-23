@@ -8,20 +8,16 @@ skills: |
 githubUsername: knrt10
 speciality: |
   - Open Source Software Development
-  - सिर्फ मजाक करना
-  - मैं आसानी से हार नहीं मानता
   - I am cool AF
-  - और कोई भी नहीं जिसे मैं अभी सोच सकता हूं
 
 github_url: https://github.com/knrt10
 linkedIn_url: https://www.linkedin.com/in/kautilya-tripathi-35853713b/
 twitter_url: https://twitter.com/knrt19
 
 work_experience: |
-  - मैं हर समय अपना समय बर्बाद करता हूं
-
+ - I don't have any.
 volunteer_experience: |
-  - मैं गरीब लोगों की मदद करता हूं
+ - Help those who are in need
 
 project:
 

@@ -26,8 +26,7 @@ linkedIn_url: https://www.linkedin.com/in/ayush-shridhar-23480b130/
 
 twitter_url: https://twitter.com/ayuSHridhar
 
-work_experience:
-|
+work_experience: |
   - Google Summer of Code Student @[TheJuliaLanguage](https://julialang.org/): Worked on Machine Learning models in Julia. Main targets of the project include implementing ONNX backend for the Flux framework, implementing models for performing Computer Vision based tasks in Julia. [May 2018 - Present]
 
   - Developer @[Julia](https://julialang.org/): Worked on various packages in Julia, such as Flux.jl, ONNX.jl, Metalhead.jl. Most of them focued on Computer Vision.
@@ -42,8 +41,7 @@ project:
 - |
     - [Kaggle Datasets](): I'm pretty active on Kaggle. I love playing around with different datasets.
 
-volunteer_experience:
-|
+volunteer_experience: |
   - I spend most of my time reading about AI. On other days, I contribute to Open Source organizations.
 
   - I've have taken a few introductory session on Pythons and Open Source technologies.
