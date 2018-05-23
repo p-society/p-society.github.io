@@ -11,9 +11,13 @@ githubUsername: ayush1999
 
 speciality: |
  - Machine Learning
+
  - Deep learning for NLP
+
  - Data Science
+
  - Numerical Computing in Julia
+
  - Open Source
 
 github_url: https://github.com/ayush1999
@@ -41,7 +45,9 @@ project:
 volunteer_experience:
 |
   - I spend most of my time reading about AI. On other days, I contribute to Open Source organizations.
+
   - I've have taken a few introductory session on Pythons and Open Source technologies.
+
   - I am a member of the Programming Society IIIT-Bh. Together we try to guide the first years in getting started with software development.
 
 ---

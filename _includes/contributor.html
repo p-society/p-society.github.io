@@ -6,14 +6,19 @@
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">{{app.name}}<a class="btn-floating pulse right blue"><i class="material-icons">more_vert</i></a></span>
     </div>
-    <div class="card-reveal" style="display: none; transform: translateY(0%);overflow-y: hidden;">
+    <div class="card-reveal" style="display: none; transform: translateY(0%);">
       <span class="card-title grey-text text-darken-4 text-center">{{app.githubUsername}}<a class="btn-floating pulse right red"><i class="material-icons">close</i></a></span>
-      <br><p class="text-center card-panel">{{app.description}}</p>
+      <br><blockquote class="text-center card-panel">{{app.description}}</blockquote>
       <div class="row text-center">
         <div class="col-xs-12 col-md-12">
-          <a class="btn-floating btn-md waves-effect waves-light contri-github"><p class="text-center">{% octicon mark-github %}</p></a>
-          <a class="btn-floating btn-md waves-effect waves-light contri-linkedIn"><p class="text-center">in</p></a>
-          <a class="btn-floating btn-md waves-effect waves-light contri-twitter"><p class="text-center">T</p></a>
+          <a  href="{{app.github_url}}" class="btn-floating btn-md waves-effect waves-light contri-github"><p class="text-center">{% octicon mark-github %}</p></a>
+          <a href="{{app.linkedIn_url}}" class="btn-floating btn-md waves-effect waves-light contri-linkedIn"><p class="text-center">in</p></a>
+          <a href="{{app.twitter_url}}" class="btn-floating btn-md waves-effect waves-light contri-twitter"><p class="text-center">T</p></a>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-xs-12 col-md-12">
+          <a href="{{app.url}}" class="waves-effect waves-light btn-large brown z-depth-5 lighten-2 contri-info"><i class="material-icons left ">person</i>Info</a>
         </div>
       </div>
     </div>

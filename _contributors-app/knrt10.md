@@ -3,7 +3,6 @@ name: Kautilya Tripathi
 description: I open source everything (by that I mean code).
 picUrl: https://avatars3.githubusercontent.com/u/24803604?s=400&u=85195bfa8caeb798bedd19d060c91160f0c7c840&v=4
 skills: |
-  - इसे क्या कहा जाता है?
   - Don't want to take credit for what I have done.
 
 githubUsername: knrt10
@@ -23,7 +22,6 @@ work_experience: |
 
 volunteer_experience: |
   - मैं गरीब लोगों की मदद करता हूं
-  - None that I can think off.
 
 project:
 
