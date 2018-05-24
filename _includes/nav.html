@@ -22,10 +22,7 @@
   {% endunless %}
 
   {% if homepage == true  %}
-   <div id="pos-background">
-
-   </div>
-   <div class="container px-3 py-4" style="top:0;position:absolute;left:auto">
+   <div class="container px-3 py-4" style="top:0;position:absolute;left:auto;">
      <div class="py-4">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light text-change white lighten-15 z-depth-5" id="navbar">
        <a class="navbar-brand brand px-2" href="/">P-SOCIETY</a>
@@ -42,9 +39,9 @@
      </nav>
    </div>
    </div>
-   <div class="container text-center" style="top:-400px;position:relative;">
-     <div class="row description px-4">
-      <div class="col-md-12 col-xs-12"><i>:wave: "{{site.description}}</i></div>
+   <div class="container text-center" style="margin-top:200px;position:relative;margin-bottom:100px;">
+     <div class="row px-4">
+      <div class="col-md-12 col-xs-12"><blockquote class="jumbotron"><i style="font-size:20px;font-weight:bold;">:wave: "{{site.description}}</i></blockquote></div>
      </div>
    </div>
   {% endif %}
