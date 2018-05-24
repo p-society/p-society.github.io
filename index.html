@@ -31,7 +31,9 @@ layout: default
   <div class="d-md-flex flex-wrap gutter flex-auto">
     {% assign contributors = site.contributors-app %}
     {% for app in contributors limit : 6%}
-      {% include contributor.html app=app %}
+      {%if app.githubUsername == 'knrt10' or app.githubUsername == 'palash25' or app.githubUsername == 'ayush1999'%}
+        {% include contributor.html app=app %}
+      {%endif%}
     {% endfor %}
   </div>
   <br>

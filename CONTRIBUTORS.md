@@ -50,7 +50,7 @@ volunter_experience: // same as above
       ## **I** worked at this
   - |
       ## **I** worked at that            
-project: // same as above
+project: // same as above but remember it should be an array
   - |
       ## **I** am meesi
   - |
