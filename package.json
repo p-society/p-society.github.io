@@ -19,7 +19,7 @@
     "js-yaml": "^3.11.0",
     "standard": "^11.0.1"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/p-society/p-society.github.io/issues"
   },
