@@ -131,22 +131,23 @@ background on top
 
 .footer-under {
     background-color: rgb(49, 40, 51);
-    padding-bottom: 100px;
-    padding-top: 100px;
-    min-height: 500px;
+    padding-bottom: 50px;
     color: rgb(238, 238, 238);
     position: relative;
-    font-weight: 100;
+    font-weight: 200;
     font-family: Helvetica, serif;
 }
 
 .container-width {
     width: 90%;
     max-width: 1150px;
-    margin-top: 0px;
+    margin-top: -150px;
     margin-right: auto;
+    top:-100px;
     margin-bottom: 0px;
     margin-left: auto;
+    z-index:999;
+    position:relative;
 }
 
 .footer-container {
@@ -169,7 +170,8 @@ background on top
 }
 
 .foot-list-item-anchor {
-  color: rgba(238, 238, 238, 0.8);
+  color: rgba(238, 238, 238, 4.8);
+  font-weight: bold;
 }
 
 .foot-list {
@@ -184,24 +186,30 @@ background on top
 .copyright {
     background-color: rgba(0, 0, 0, 0.15);
     color: rgba(238, 238, 238, 0.5);
-    bottom: 0px;
-    padding-top: 1em;
-    padding-right: 0px;
-    padding-bottom: 1em;
+    bottom: -50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 0px;
-    position: absolute;
+    position: relative;
     width: 100%;
     font-size: 0.75em;
 }
 
+.made-with {
+  position: relative;
+  margin-left: 200px;
+  color: rgba(255, 255, 255, 8.75);
+}
+
 .foot-form-title {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 8.75);
     font-weight: 400;
     margin-bottom: 10px;
     padding-top: 0.5em;
     padding-right: 0px;
     padding-bottom: 0.5em;
     padding-left: 0px;
+    top:900px;
     text-align: right;
     font-size: 2em;
 }
