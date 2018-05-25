@@ -39,9 +39,11 @@
      </nav>
    </div>
    </div>
-   <div class="container text-center " style="margin-top:200px;position:relative;margin-bottom:100px;">
-     <div class="row px-4">
-      <div class="col-md-12 col-xs-12"><blockquote class="jumbotron teal lighten-5"><i style="font-size:20px;font-weight:bold;">:wave: "{{site.description}}</i></blockquote></div>
+   <div class="back img-fluid">
+     <div class="col-xs-12 up">
+       <h1 class="description-top">Programming Society</h1>
+       <h1 class="description-middle">More meaningful teamwork.</h1>
+       <blockquote class="description-bottom">{{site.description}}</blockquote>
      </div>
    </div>
   {% endif %}
@@ -53,10 +55,10 @@
   var last_known_scroll_position = 0;
   var ticking = false;
   function doSomething(scroll_pos) {
-    if(scroll_pos<50){
+    if(scroll_pos<100){
       nav.classList.add("navIn")
       nav.classList.add("fixed-top")
-    } else if(scroll_pos>50){
+    } else if(scroll_pos>100){
       nav.classList.remove("navIn")
       nav.classList.add("navout")
     }

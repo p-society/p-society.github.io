@@ -1,35 +1,39 @@
-.header {
-    background: linear-gradient(to bottom left,#1F1C6E,#181554);
-    overflow: hidden;
-    padding-top: 2rem;
+/*
+  Landing page
+*/
+
+.back {
+  width:100%;
+  position: relative;
+  background-image: url(../images/backgroundHome.png) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -999;
+  min-height: 700px;
+  -moz-appearace:none;
+    -webkit-appearace:none;
+    appearace:none;
 }
 
-header, hgroup, menu, nav, section {
-    display: block;
+.up {
+  position: relative;
+  top:100px;
+  width: 60%;
+  padding: 30px;
 }
 
-.u__wrapper {
-    display: block;
-    max-width: 60rem;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
+.description-top {
+  color: #474747;
 }
 
-@media (min-width: 768px)
-.u__wrapper {
-    padding-left: 0;
-    padding-right: 0;
+.description-middle {
+    color: #316fea;
 }
 
-.u__white {
-    color: #fafafa;
-}
-
-.u__pos--static {
-    position: static!important;
+.description-bottom {
+    color: #6d6d6f;
+    font-weight: normal;
+    font-weight: bold;
 }
 
 @keyframes slideInFromLeft {
@@ -143,7 +147,6 @@ background on top
     max-width: 1150px;
     margin-top: -150px;
     margin-right: auto;
-    top:-100px;
     margin-bottom: 0px;
     margin-left: auto;
     z-index:999;
@@ -155,6 +158,22 @@ background on top
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-around;
+}
+
+.header-footer {
+  overflow: hidden;
+  height:600px;
+  position:relative;
+  top:230px;
+
+}
+
+.svg-footer {
+  color: #fafafa;display: block;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
 .foot-list-item {
@@ -305,4 +324,21 @@ Contributor part
 .contri-info:hover {
   color: black !important;
   text-decoration: none;
+}
+
+@media only screen and (min-width: 480px) {
+  .back {
+      min-height: 760px;
+        background-attachment: fixed;
+    }
+  .up {
+    width: 30%;
+  }
+  .container-width {
+      top:-100px;
+    }
+
+  .header-footer {
+    top:70px;
+  }
 }
