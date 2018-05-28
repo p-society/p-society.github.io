@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 name: Shivank Pathak
 description: Pythonista, Machine Learning/Deep Learning Enthusiast, Competitive Programmer
