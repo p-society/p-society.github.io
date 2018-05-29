@@ -24,9 +24,6 @@ github_url: https://github.com/hdidwania
 linkedIn_url: https://www.linkedin.com/in/himansu-didwania/
 twitter_url: https://twitter.com/HDRules1997
 
-work_experience: |
- - 
-
 project:
 - |
     - [Text Generator](https://github.com/hdidwania/Text-Generator): Use of LSTM to build a Deep Learning model, able to generate meaningful sentences, similar to text it is trained on.

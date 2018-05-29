@@ -29,14 +29,13 @@ project:
 - |
     - [Twitter Sentiment Analysis](https://github.com/shivank01/NaturalLanguageProcessing): Live sentiment analysis of twitter.Draws the sentiment graphs of any topic of twitter.
 - |
-
-   - [Handwritten Digit Recognition](https://github.com/shivank01/DeepLearning): Recognizes the handwritten digits using Deep Learning on MNIST dataset.
-
-- |
-   - [Employee Tracking System](https://github.com/shivank01/Employee-tracking-system): Tracks the employee in real time. It is the Hybrid Android Application made using Apache Cordova.
+    - [Handwritten Digit Recognition](https://github.com/shivank01/DeepLearning): Recognizes the handwritten digits using Deep Learning on MNIST dataset.
 
 - |
-   - [Hibiscut](http://www.github.com/shivank01/web-crawler-and-scraper/blob/master/HIBISCUT.py): Automatically sends the official notices to the students via sms from the online notice board ’Hibiscus’ of IIIT Bhubaneswar.
+    - [Employee Tracking System](https://github.com/shivank01/Employee-tracking-system): Tracks the employee in real time. It is the Hybrid Android Application made using Apache Cordova.
+
+- |
+    - [Hibiscut](http://www.github.com/shivank01/web-crawler-and-scraper/blob/master/HIBISCUT.py):  Automatically sends the official notices to the students via sms from the online notice board *Hibiscus* of IIIT Bhubaneswar.
 
 volunteer_experience: |
  -  I like implementing Machine Learning algorithms and Deep Learning in real world. I also like Competitive Programming.
