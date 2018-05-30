@@ -326,22 +326,24 @@ Contributor part
   text-decoration: none;
 }
 
-/* 
-  Contact page 
+/*
+  Contact page
 */
 .contact-area {
-padding-top: 100px;
-padding-bottom: 100px;
-background-color: #F7F9F9;
-}
-  
-.contact-area h2 {
-  font-size: 250%;
+  color: #2E3280;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+  background-color: #F1F8FE;
 }
 
-.tip{
-  font-size: 75%;
-  margin-bottom: 10px;
+/*
+  Thank you page
+*/
+
+.thankyou:hover {
+  background-color: transparent !important;
+  color: teal;
 }
 
 @media only screen and (min-width: 480px) {
