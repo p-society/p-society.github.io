@@ -12,6 +12,7 @@ medium_url: https://medium.com/programming-society-gazette
 linkedIn_url: https://www.linkedin.com/company/p-soc/
 twitter_url: https://twitter.com/psociiit
 facebook_url: https://www.facebook.com/psocietyiiitbh/
+dribble_url: https://dribbble.com/psociiit
 
 exclude:
   - Gemfile*

@@ -253,7 +253,6 @@ background on top
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: rgb(34, 34, 34);
-    font-family: Helvetica, serif;
     color: white;
     top: 0px;
     position: relative;
@@ -335,6 +334,12 @@ Contributor part
   padding-bottom: 100px;
   height: auto;
   background-color: #F1F8FE;
+}
+
+.contact-foot-list-item-anchor {
+  font-weight: bold;
+  font-size: 23px;
+  margin-right: 10px;
 }
 
 /*
