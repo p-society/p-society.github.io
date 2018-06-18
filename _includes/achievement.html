@@ -1,0 +1,29 @@
+<div class="text-center">
+  <h1 style="color: #f2f9fe">
+    {{app.title}}
+  </h1>
+</div>
+<ul class="timeline">
+  {% for achievement in app.achievements_students%}
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod != 0 %}
+      <li>
+      <div class="timeline-badge info"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-body">
+          <p>{{achievement}}</p>
+        </div>
+      </div>
+    </li>
+    {% else %}
+      <li class="timeline-inverted">
+      <div class="timeline-badge danger"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+      <div class="timeline-panel">
+        <div class="timeline-body">
+          <p>{{achievement}}</p>
+        </div>
+      </div>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

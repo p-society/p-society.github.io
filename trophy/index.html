@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="time_line">
+  <div class="container">
+    <div class="text-center">
+      <h1 id="timeline">All Achievements</h1>
+    </div>
+    {% assign achievement = site.trophy %}
+    {% for app in achievement%}
+      {% include achievement.html app=app %}
+    {% endfor %}
+  </div>
+</div>

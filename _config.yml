@@ -39,6 +39,8 @@ collections:
   contributors-app:
     output: true
     permalink: /contributors-app/:name/
+  trophy:
+    output: true
 
 defaults:
   - scope:

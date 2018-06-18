@@ -1,0 +1,147 @@
+/*
+  Landing page
+*/
+
+.back {
+  width:100%;
+  position: relative;
+  background-image: url(../images/backgroundHome.png) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -999;
+  min-height: 700px;
+  -moz-appearace:none;
+    -webkit-appearace:none;
+    appearance:none;
+}
+
+.up {
+  position: relative;
+  top:100px;
+  width: 60%;
+  padding: 30px;
+}
+
+.description-top {
+  color: #474747;
+}
+
+.description-middle {
+    color: #316fea;
+}
+
+.description-bottom {
+    color: #6d6d6f;
+    font-weight: normal;
+    font-weight: bold;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutFromRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.navout {
+  animation: 0.5s ease-out 0s 1 slideOutFromRight;
+  animation-fill-mode: forwards;
+}
+
+.navIn {
+  animation: 0.5s ease-out 0s 1 slideInFromLeft;
+  animation-fill-mode: forwards;
+}
+
+.navbar:hover {
+  background-color: #14171a;
+  width: 100%;
+}
+
+/*
+  navbar brand
+*/
+
+.brand {
+  border-radius: 5px;
+  width: 90px;
+  font-size: 23px;
+  color: white;
+  background-color: rgb(121, 213, 199);
+}
+
+@keyframes moveright {
+    0% {width: 90px}
+    100% {width: 200px}
+}
+
+.brand:hover {
+  background-color: rgb(237, 17, 92);
+  animation: moveright 0.3s linear 1;
+  animation-fill-mode: forwards;
+}
+
+/*
+  anchor hover change
+*/
+
+.navbar-nav a:hover {
+  background-color: rgb(121, 213, 199);
+}
+
+/*
+  navbar contents
+*/
+
+.text-change {
+  text-shadow: 1.2px 1.2px white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 7px;
+  margin-right: 20px;
+}
+
+/*
+background on top
+*/
+
+
+.description {
+  color: inherit;
+  font-weight: bold;
+  font-size: 30px;
+  top:150px;
+  text-align: center;
+  position: relative;
+  background-color: olive;
+  filter:sepia(60%) opacity(55%);
+  border-radius: 0px 50px;
+}
+
+
+@media only screen and (min-width: 480px) {
+  .back {
+      min-height: 760px;
+        background-attachment: fixed;
+    }
+  .up {
+    width: 30%;
+  }
+  .container-width {
+      top:-100px;
+    }
+  .header-footer {
+    top:70px;
+  }
+}

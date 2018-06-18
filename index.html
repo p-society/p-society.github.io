@@ -44,3 +44,23 @@ layout: default
     </a>
   </div>
 </div>
+
+<div class="time_line">
+  <div class="container">
+    <div class="text-center">
+      <h1 id="timeline">Achievements</h1>
+    </div>
+    {% assign achievement = site.trophy %}
+    {% for app in achievement limit:1%}
+      {% include achievement.html app=app %}
+    {% endfor %}
+  </div>
+  <div class="text-center">
+    <a href="/trophy/">
+      <button class="btn btn-outline btn-large waves-effect waves-light">
+        {% octicon telescope class:"mr-2" %}
+        See all achievements
+      </button>
+    </a>
+  </div>
+</div>

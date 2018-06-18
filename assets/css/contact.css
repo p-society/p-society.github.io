@@ -1,0 +1,25 @@
+/*
+  Contact page
+*/
+.contact-area {
+  color: #2E3280;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: auto;
+  background-color: #F1F8FE;
+}
+
+.contact-foot-list-item-anchor {
+  font-weight: bold;
+  font-size: 23px;
+  margin-right: 10px;
+}
+
+/*
+  Thank you page
+*/
+
+.thankyou:hover {
+  background-color: transparent !important;
+  color: teal;
+}

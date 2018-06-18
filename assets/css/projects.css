@@ -1,0 +1,44 @@
+/*
+  Index page projects part
+*/
+
+.explore {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    top: 0px;
+    position: relative;
+}
+
+.body-apps {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #F0F3F4;
+  color: black;
+}
+
+.body-apps-info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ABEBC6;
+  color: black;
+}
+
+.page-section {
+  color: white
+}
+
+.btn-success {
+  border-radius: 0px !important;
+  background-color: #8064A2 !important;
+  color: white !important;
+  border-color: #8064A2 !important;
+}
+
+.btn-success:hover {
+  border-radius: 0px !important;
+  background-color: white !important;
+  color: #8064A2 !important;
+  border-color: white !important;
+}

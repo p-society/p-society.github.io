@@ -1,0 +1,35 @@
+
+/*
+Contributor part
+*/
+
+.contributor {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F7F9F9;
+    font-family: Helvetica, serif;
+    color: black;
+}
+
+/*
+ Contributors card
+*/
+
+.contri-github {
+  background-color: #333 !important;
+}
+
+.contri-linkedIn {
+  background-color: #0077b5 !important;
+  color: white !important;
+}
+
+.contri-twitter {
+  background-color: #1da1f2 !important;
+  color: white !important;
+}
+
+.contri-info:hover {
+  color: black !important;
+  text-decoration: none;
+}

@@ -1,0 +1,131 @@
+/*
+ Footer CSS
+*/
+
+.footer-under {
+    background-color: rgb(49, 40, 51);
+    padding-bottom: 50px;
+    color: rgb(238, 238, 238);
+    position: relative;
+    font-weight: 200;
+    font-family: Helvetica, serif;
+}
+
+.container-width {
+    width: 90%;
+    max-width: 1150px;
+    margin-top: -150px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    z-index:999;
+    position:relative;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.header-footer {
+  overflow: hidden;
+  height:600px;
+  position:relative;
+  top:230px;
+
+}
+
+.svg-footer {
+  color: #fafafa;display: block;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.foot-list-item {
+    font-size: 0.8em;
+    padding-top: 0.5em;
+    padding-right: 0px;
+    padding-bottom: 0.5em;
+    padding-left: 0px;
+}
+
+.foot-list-item a:hover {
+  color: rgb(121, 213, 199);
+}
+
+.foot-list-item-anchor {
+  color: rgba(238, 238, 238, 4.8);
+  font-weight: bold;
+}
+
+.foot-list {
+    float: left;
+    width: 200px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.copyright {
+    background-color: rgba(0, 0, 0, 0.15);
+    color: rgba(238, 238, 238, 0.5);
+    bottom: -50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    position: relative;
+    width: 100%;
+    font-size: 0.75em;
+}
+
+.made-with {
+  position: relative;
+  margin-left: 200px;
+  color: rgba(255, 255, 255, 8.75);
+}
+
+.foot-form-title {
+    color: rgba(255, 255, 255, 8.75);
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding-top: 0.5em;
+    padding-right: 0px;
+    padding-bottom: 0.5em;
+    padding-left: 0px;
+    top:900px;
+    text-align: right;
+    font-size: 2em;
+}
+
+.foot-form-desc {
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 20px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.error {
+  background-color: #F0F3F4;
+}
+
+@media only screen and (min-width: 480px) {
+  .back {
+      min-height: 760px;
+        background-attachment: fixed;
+    }
+  .up {
+    width: 30%;
+  }
+  .container-width {
+      top:-100px;
+    }
+  .header-footer {
+    top:70px;
+  }
+}
