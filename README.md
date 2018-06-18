@@ -4,7 +4,7 @@ This is gonna be official website for P-society
 
 # Contributing
 
-Your contribution will be appriciated. So feel free to open a PR about any change in front End or any new design you have. You can even open a PR by making a design on a sketch page or PDF.
+Your contribution will be appreciated. So feel free to open a PR about any change in front End or any new design you have. You can even open a PR by making a design on a sketch page or PDF.
 
 If you want to contribute bu writing code follow the steps.
 
@@ -26,9 +26,14 @@ If you want to contribute bu writing code follow the steps.
 
 - Before working on an issue comment on the issue **"I would like to work on this"**
 
+## Steps for editing achievements
+
+Please see [ACHIEVEMENTS.md](https://github.com/p-society/p-society.github.io/blob/master/ACHIEVEMENTS.md)
+
 ## Steps for members to add yourself and your projects to site
 
 Please see [CONTRIBUTORS.md](https://github.com/p-society/p-society.github.io/blob/master/CONTRIBUTORS.md)
+
 
 **Important**
 
