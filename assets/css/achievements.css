@@ -3,12 +3,11 @@
   padding-bottom: 50px;
   height: auto;
   font-weight: bold;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffd65e+26,febf04+68 */
-  background: #ffd65e; /* Old browsers */
-  background: -moz-linear-gradient(top, #ffd65e 26%, #febf04 68%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffd65e 26%,#febf04 68%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffd65e 26%,#febf04 68%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+  background: #f2f9fe; /* Old browsers */
+  background: -moz-linear-gradient(top, #f2f9fe 0%, #f2f9fe 5%, #f2f9fe 43%, #d6f0fd 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f2f9fe 0%,#f2f9fe 5%,#f2f9fe 43%,#d6f0fd 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f2f9fe 0%,#f2f9fe 5%,#f2f9fe 43%,#d6f0fd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f9fe', endColorstr='#d6f0fd',GradientType=0 ); /* IE6-9 */
 }
 
 .timeline {
