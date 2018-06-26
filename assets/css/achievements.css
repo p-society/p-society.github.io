@@ -78,7 +78,6 @@ padding-left:90px;
   border-right: 0 solid #ccc;
   border-bottom: 15px solid transparent;
   content: " ";
-
 }
 .timeline > li > .timeline-panel:after {
   position: absolute;
@@ -86,8 +85,8 @@ padding-left:90px;
   right: -14px;
   display: inline-block;
   border-top: 14px solid transparent;
-  border-left: 14px solid #fff;
-  border-right: 0 solid #fff;
+  border-left: 14px solid #f1da36;
+  border-right: 0 solid #f1da36;
   border-bottom: 14px solid transparent;
   content: " ";
 }
