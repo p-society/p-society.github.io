@@ -60,6 +60,7 @@
 .foot-list-item-anchor {
   color: rgba(238, 238, 238, 4.8);
   font-weight: bold;
+  margin: 0 15px 5px 0;
 }
 
 .foot-list {
