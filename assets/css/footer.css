@@ -115,6 +115,27 @@
   background-color: #F0F3F4;
 }
 
+
+.foot-list-item .fa-facebook:hover {
+  color: #3b5998;
+}
+
+.foot-list-item .fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.foot-list-item .fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.foot-list-item .fa-medium:hover {
+  color: #00ab6c;
+}
+
+.foot-list-item .fa-dribbble:hover {
+  color: #444444;
+}
+
 @media only screen and (min-width: 480px) {
   .back {
       min-height: 760px;
