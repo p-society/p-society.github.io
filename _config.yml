@@ -41,6 +41,8 @@ collections:
     permalink: /contributors-app/:name/
   trophy:
     output: true
+  external_feed:
+    output: true
 
 defaults:
   - scope:

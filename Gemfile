@@ -15,6 +15,7 @@ group :jekyll_plugins do
   gem 'jekyll-octicons'
   gem 'jekyll-readme-index'
   gem 'jemoji'
+  gem 'feedjira'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

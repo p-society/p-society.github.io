@@ -1,0 +1,11 @@
+.blog-content{
+	margin:20px 150px 40px 150px;
+	 font-size: 22px;
+	  border-style: solid; 
+	  padding: 15px;
+	}
+
+.blog-title{
+	text-align: center;
+	font-size: 50px;
+}
