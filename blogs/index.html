@@ -1,0 +1,12 @@
+---
+layout: default
+---
+  <div>
+    <h1 class="text-center"> Latest Blogs</h1>
+      <div class="blog-content">
+            {% for e in site.external_feed %}
+            <h2 class="blog-title">{{ e.title }}</h2>
+            <p>{{ e.feed_content }}</p>
+            {% endfor %}
+      </div>
+  </div>
