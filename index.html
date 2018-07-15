@@ -22,18 +22,118 @@ layout: default
   </div>
 </div>
 
+<style>
+
+
+    footer {
+      margin-top: 10px;
+      padding: 15px 20px 10px 20px;
+      overflow: hidden;
+      background-color: rgba(237, 237, 237, 0.4);
+      clear: both;
+    }
+    
+    .center-text { text-align: center; }
+    
+    /* 3. Portfolio styles
+    -----------------------------------------*/
+    #portfolio-content {
+      margin:  0 auto;
+      display:-webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+    
+    
+    
+    .pagination { width: 100%; }
+    .pagination li {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;	
+      background-color: white;
+      -webkit-box-shadow: 1px 1px 1px rgba(51,51,51,0.4);
+      -ms-box-shadow: 1px 1px 1px rgba(51,51,51,0.4);
+      box-shadow: 1px 1px 1px rgba(51,51,51,0.4);
+      margin-right: 10px;
+      border: 1px solid rgba(44, 44, 44, 0.1);
+    }
+    .pagination li:last-child {	margin-right: 0; }
+    .pagination li.active, .pagination li:hover { background-color: #A7DDFF; }
+    
+    
+    </style>
+      
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script>
+        function changePage(event) {
+      
+          var pageNo = $(this).html();
+          
+          $('.portfolio-page').hide();
+          $('#page-' + pageNo).fadeIn();
+          $('.pagination li').removeClass('active');
+          $(this).addClass('active');
+          }
+    </script>
+    <script type="text/javascript">
+      $(function () {
+        $('.pagination li').click(changePage);
+        $('.portfolio-item').magnificPopup({ 
+          type: 'image',
+          gallery:{
+            enabled:true
+          }
+        });
+      });
+    </script>	
+
 <div class="contributor">
   <div class="container-lg"></div>
   <h2 class="text-center">Members</h2>
   <p class="lead text-center col-md-7 col-sm-10 mx-auto">
     These are some members of our society.
   </p><br>
+
+  <div class="content-container" >
+      <div id="portfolio-content" class="center-text">
+          <div class="portfolio-page" id="page-1">
+
   <div class="d-md-flex flex-wrap gutter flex-auto">
     {% assign contributors = site.contributors-app %}
     {% for app in contributors limit : 6%}
         {% include contributor.html app=app %}
     {% endfor %}
   </div>
+</div>
+<div class="portfolio-page" id="page-2" style="display:none;">
+    <div class="d-md-flex flex-wrap gutter flex-auto"> <!--six members here-->
+      {% assign contributors = site.contributors-app %}
+      {% for app in contributors limit : 4%}
+          {% include contributor.html app=app %}
+      {% endfor %}
+      
+      </div>
+</div>
+</div>
+<div class="pagination">
+  <ul class="nav">
+    <li class="active">1</li>
+    <li>2</li>
+  </ul>
+</div>
+</div>
+</div>
+
   <br>
   <div class="text-center">
     <a href="/contributors/">
