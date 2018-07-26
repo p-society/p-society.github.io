@@ -1,12 +1,14 @@
 ---
-layout: default
+layout: blog
 ---
-  <div>
+  <div class="jumbotron blog">
     <h1 class="text-center"> Latest Posts</h1>
-      <div class="blog-content">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
             {% for e in site.external_feed %}
-            <h2 class="blog-title">{{ e.title }}</h2>
-            <p>{{ e.feed_content }}</p>
+            <h2>{{ e.title }}</h2>
+            <p style="width:auto;">{{ e.feed_content }}</p>
             {% endfor %}
+        </div>
       </div>
   </div>
