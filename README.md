@@ -52,3 +52,7 @@ Please see
 [APPADDITION.md](https://github.com/p-society/p-society.github.io/blob/master/APPADDITION.md)
 
 :fire: Enjoy...
+
+# Contact Us
+
+We use [secure contact form](https://github.com/knrt10/static-contact-validatedForm/) and it is hosted on [Glitch](https://glitch.com). Feel free to reach us.
