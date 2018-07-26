@@ -1,11 +1,8 @@
-.blog-content{
-	margin:20px 150px 40px 150px;
-	 font-size: 22px;
-	  border-style: solid; 
-	  padding: 15px;
-	}
 
-.blog-title{
-	text-align: center;
-	font-size: 50px;
+@media screen and (max-width:1000px) {
+  img{width: 50%;}
+}
+
+@media screen and (max-width:528px) {
+  img{width: 100%;}
 }

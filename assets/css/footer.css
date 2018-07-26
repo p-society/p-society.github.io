@@ -33,8 +33,7 @@
   overflow: hidden;
   height:600px;
   position:relative;
-  top:230px;
-
+  top:240px;
 }
 
 .svg-footer {
@@ -139,7 +138,7 @@
 @media only screen and (min-width: 480px) {
   .back {
       min-height: 760px;
-        background-attachment: fixed;
+      background-attachment: fixed;
     }
   .up {
     width: 30%;
@@ -148,6 +147,6 @@
       top:-100px;
     }
   .header-footer {
-    top:70px;
+    top:75px;
   }
 }
