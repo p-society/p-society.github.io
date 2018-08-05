@@ -28,12 +28,33 @@ layout: default
   <p class="lead text-center col-md-7 col-sm-10 mx-auto">
     These are some members of our society.
   </p><br>
-  <div class="d-md-flex flex-wrap gutter flex-auto">
-    {% assign contributors = site.contributors-app %}
-    {% for app in contributors limit : 6%}
-        {% include contributor.html app=app %}
-    {% endfor %}
+  <div class="content-container" >
+    <div id="portfolio-content" class="center-text">
+      <div class="portfolio-page" id="page-1">
+        <div class="d-md-flex flex-wrap gutter flex-auto">
+          {% assign contributors = site.contributors-app %}
+          {% for app in contributors limit : 6%}
+              {% include contributor.html app=app %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="portfolio-page" id="page-2" style="display:none;">
+          <div class="d-md-flex flex-wrap gutter flex-auto"> <!--six members here-->
+            {% assign contributors = site.contributors-app %}
+            {% for app in contributors limit : 4%}
+                {% include contributor.html app=app %}
+            {% endfor %}
+          </div>
+      </div>
+    </div>
+    <div class="pagination">
+      <ul class="nav">
+        <li class="active">1</li>
+        <li>2</li>
+      </ul>
+    </div>
   </div>
+  
   <br>
   <div class="text-center">
     <a href="/contributors/">
