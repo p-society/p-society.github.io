@@ -1,0 +1,40 @@
+footer {
+
+    overflow: hidden;
+    background-color: rgba(237, 237, 237, 0.4);
+    clear: both;
+  }
+  
+  .center-text { text-align: center; }
+  
+  /* 3. Portfolio styles
+  -----------------------------------------*/
+  #portfolio-content {
+    margin:  0 auto;
+    display:-webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+  }
+  
+  
+  
+  .pagination { width: 100%; margin-left: auto;}
+  .pagination li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;	
+    background-color: white;
+    -webkit-box-shadow: 1px 1px 1px rgba(51,51,51,0.4);
+    -ms-box-shadow: 1px 1px 1px rgba(51,51,51,0.4);
+    box-shadow: 1px 1px 1px rgba(51,51,51,0.4);
+    margin-right: 10px;
+    border: 1px solid rgba(44, 44, 44, 0.1);
+  }
+  .pagination li:last-child {	margin-right: 0; }
+  .pagination li.active, .pagination li:hover { background-color: #A7DDFF; }
