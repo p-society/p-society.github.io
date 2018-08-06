@@ -39,7 +39,7 @@ layout: default
   <br>
   <div class="text-center">
     <a href="/contributors/">
-      <button class="btn btn-outline btn-large waves-effect waves-light" id="member">
+      <button class="btn btn-outline btn-large waves-effect waves-light">
         {% octicon telescope class:"mr-2" %}
         See all members
       </button>
@@ -66,3 +66,38 @@ layout: default
     </a>
   </div>
 </div>
+<script type="text/javascript">
+  $(document).ready(function(){
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+    autoplay: true,
+    autoplayTimeout: 3000,
+    loop:true,
+    nav:true,
+    margin:10,
+    responsive:{
+      0:{
+        items:1
+      },
+      600:{
+        items:3
+      },            
+      960:{
+        items:5
+      },
+      1200:{
+        items:6
+      }
+    }
+  });
+  owl.on('mousewheel', '.owl-stage', function (e) {
+    if (e.deltaY>0) {
+      owl.trigger('next.owl');
+    } else {
+      owl.trigger('prev.owl');
+    }
+    e.preventDefault();
+  });
+});
+  
+</script>
