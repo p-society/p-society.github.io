@@ -30,14 +30,16 @@ layout: default
   </p><br>
   <div class="d-md-flex flex-wrap gutter flex-auto">
     {% assign contributors = site.contributors-app %}
-    {% for app in contributors limit : 6%}
+    <div class="owl-carousel owl-theme">
+      {% for app in contributors%}
         {% include contributor.html app=app %}
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
   <br>
   <div class="text-center">
     <a href="/contributors/">
-      <button class="btn btn-outline btn-large waves-effect waves-light">
+      <button class="btn btn-outline btn-large waves-effect waves-light" id="member">
         {% octicon telescope class:"mr-2" %}
         See all members
       </button>
