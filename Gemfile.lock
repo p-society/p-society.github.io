@@ -110,7 +110,6 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2018.5)
       tzinfo (>= 1.0.0)
-    wdm (0.1.1)
 
 PLATFORMS
   ruby
@@ -125,7 +124,6 @@ DEPENDENCIES
   jemoji
   minima (~> 2.0)
   tzinfo-data
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.16.2
+   1.16.3
