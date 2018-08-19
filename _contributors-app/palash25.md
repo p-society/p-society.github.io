@@ -36,11 +36,11 @@ work_experience: |
 project:
 - |
     - [GIG](https://github.com/palash25/GIG): Stands for **G**it**I**gnore **G**enerator. CLI
-     tool to generate `.gitignore` files for a project written in any language or framework (support for more than a 100 languages/frameworks to the best of my knowledge)
+     tool to generate `.gitignore` files for a project written in any language or framework (support for more than a 100 languages/frameworks as far as I remember)
 - |
 
    - [GitterPy](https://github.com/palash25/-WIP-GitterPy): A CLI client to interact with the
-     Gitter API. Currently it can post/fetch messages to/from rooms. More functionalities will be added.
+     Gitter API. Currently it can post/fetch messages to/from rooms. More functionality to be added.
 
 - |
    - [Go Fuck Yourself](https://github.com/palash25/go-fuck-yourself): A go package to
@@ -50,10 +50,11 @@ project:
      written using Requests and BeautifulSoup.
 
 volunteer_experience: |
- - I am the head of the Programming Society and the club captain of the Mozilla Campus Club of IIIT-Bh. Together we try to guide the first year students in getting started with software development.
+ - Most of my time is spent hacking on open source. I have contributed to coala, duckduckgo, Kinto, OpenGenus,Mozilla and the Ethereum foundation.
 
- - Most of my time is spent hacking on open source. I have made contributions to coala, duckduckgo, Kinto, OpenGenus, Mozilla and the Ethereum foundation. Moreover, I am fond of writing articles. I have prior experience in content writing for opensource.com and geeksforgeeks.org. For those interested, I maintain a list of links to all my articles.
+ - I also like to write articles and have written for opensource.com and geeksforgeeks.org in the past. I also maintain a list of links to all my articles just in case you are interested.
 
- - I have been responsible for conducting a few introductory sessions on Python and Open Source Development.
+ - I am a the head of the Programming Society and the club captain of the Mozilla Campus Club of IIIT-Bh. Together we try to guide the first years in getting started with software development.
+
+ - I've have taken a few introductory session on Python and Open Source Development.
 ---
-
