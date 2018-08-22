@@ -1,7 +1,7 @@
 ---
 name: Debasish Sahoo
 description: Open Source Enthusiast and an aspiring Web & Android Developer.
-picUrl: https://user-images.githubusercontent.com/33368759/42726111-cee0efd8-87ac-11e8-9de4-36dfbc8510c8.jpg
+picUrl: https://avatars2.githubusercontent.com/u/33368759?s=460&v=4
 skills: |
   - **Languages:** Javascript, Java, C, HTML/CSS, Python
   - **Frameworks:** NodeJs, ExpressJs, Jekyll

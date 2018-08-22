@@ -1,7 +1,7 @@
 ---
 name: Shibasis Patel
 description: I am an open source enthusiast.
-picUrl: https://image.ibb.co/jNthWT/profile_pic.jpg
+picUrl: https://avatars1.githubusercontent.com/u/13582547?s=460&v=4
 skills: |
   - **Languages:** Python, C/C++, JavaScript, Ruby, Java, Go
   - **Frameworks:** Django, Flask, ExpressJs, Ruby on Rails

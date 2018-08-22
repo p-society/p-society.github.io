@@ -1,7 +1,7 @@
 ---
 name: Sibasish Ghosh
 description: I am a competitive programmer. 
-picUrl: https://user-images.githubusercontent.com/33897888/44356459-07264680-a4cd-11e8-8d59-4b0d8a13c474.jpg
+picUrl: https://avatars3.githubusercontent.com/u/33897888?s=460&v=4
 skills: |
   - **Languages:** Python, C/C++
   - **Tools:** git, Github

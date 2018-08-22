@@ -1,7 +1,7 @@
 ---
 name: Arijeet Satapathy
 description: I am a SDN(Software Defined Networking) Researcher and Machine Learning Enthusiast.
-picUrl: https://avatars0.githubusercontent.com/u/23520970?s=400&u=7831e0cae5f03ee34e50743d3d49e4b40c52461a&v=4%22
+picUrl: https://avatars0.githubusercontent.com/u/23520970?s=460&v=4
 skills: |
   - **Languages:** Python, P4, MATLAB, C/C++
   - **Frameworks:** POX , Floodlight, Pandas ,Numpy, OpenCV
