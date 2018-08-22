@@ -1,7 +1,7 @@
 ---
 name: Kautilya Tripathi
 description: I open source everything (by that I mean code).
-picUrl: https://avatars3.githubusercontent.com/u/24803604?s=400&u=85195bfa8caeb798bedd19d060c91160f0c7c840&v=4
+picUrl: https://avatars0.githubusercontent.com/u/24803604?s=460&v=4
 skills: |
   - Don't want to take credit for what I have done.
 
