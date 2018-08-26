@@ -14,6 +14,7 @@ describe('yml format', () => {
           const second = first.indexOf('---')
           const third = first.substr(0, second)
           const finalString = yaml.safeLoad(third)
+          const url = (finalString).picUrl
           expect(typeof (finalString).project).toBe('object')
           expect(typeof (finalString).name).toBe('string')
           expect(typeof (finalString).description).toBe('string')
@@ -21,6 +22,8 @@ describe('yml format', () => {
           expect(typeof (finalString).skills).toBe('string')
           expect(typeof (finalString).speciality).toBe('string')
           expect(typeof (finalString).githubUsername).toBe('string')
+          expect(url.substring(0, 15)).toMatch('https://avatars')
+          expect(url.substring(17, 40)).toMatch('githubusercontent.com/u')
         } catch (e) {
           throw new Error(e)
         }
