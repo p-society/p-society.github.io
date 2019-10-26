@@ -13,6 +13,9 @@ linkedIn_url: https://www.linkedin.com/company/p-soc/
 twitter_url: https://twitter.com/psociiit
 facebook_url: https://www.facebook.com/psocietyiiitbh/
 dribble_url: https://dribbble.com/psociiit
+pwl_url: https://github.com/papers-we-love/bhubaneswar
+acm_url: https://www.facebook.com/ACMIIITBh/
+mozilla_url: https://campus.mozilla.community/connect/
 
 exclude:
   - Gemfile*
